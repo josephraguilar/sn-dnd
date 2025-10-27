@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "campaign/locations"
+    order:
+      - file.name
+      - city
+      - continent
+      - region
+    columnSize:
+      file.name: 161
+      note.city: 93
+      note.continent: 62
